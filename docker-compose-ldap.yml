@@ -25,7 +25,7 @@ services:
 #       - HTTPS_PROXY=http://proxy.domain.com
     depends_on:
       - mongo
-      - opneldap
+      - openldap
     ports:
       - 3000:3000
     labels:
