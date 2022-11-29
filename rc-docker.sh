@@ -24,6 +24,7 @@ fi
 
 sudo chmod -R 777 ./data
 #sudo docker-compose up -d
+sudo usermod -aG docker $USER && newgrp docker
 
 if [[ $yn =~ ^[Yy]$ ]]
 then
